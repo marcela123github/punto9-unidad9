@@ -1,0 +1,28 @@
+html, body {
+    height: 50%;
+  }
+ body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+.tabla_1 {
+    background-color: yellow;
+    border-collapse: collapse;
+  }
+  
+  .tabla_1 th {
+    color: red;
+    border: 2px solid black;
+    border: dotted 2px black;
+  }
+  
+  .tabla_1 td {
+    border: dotted 2px black;
+  }
+  
+  .tabla_1 tr:last-child td {
+    border-bottom-color: red;
+  }
+  
+  
